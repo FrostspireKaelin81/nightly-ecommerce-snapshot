@@ -1,0 +1,9 @@
+{
+  "name": "nightly-ecommerce-snapshot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "tsx src/server.ts", "test": "tsx test/snapshot.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"zod": "^3.23.8"},
+  "devDependencies": {"tsx": "^4.19.2", "typescript": "^5.6.3", "@types/node": "^22.10.0"}
+}
